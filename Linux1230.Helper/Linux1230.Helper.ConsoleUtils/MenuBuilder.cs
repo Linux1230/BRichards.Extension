@@ -10,6 +10,7 @@ public class MenuBuilder
     private Action<MenuBuilder, string>? onAfterItemSelected;
 
     public MenuBuilder() { }
+
     public MenuBuilder(string title)
     {
         this.title = title;
@@ -78,11 +79,14 @@ public class MenuBuilder
         }
 
         // Execute selected item
-        if (items[selection - 1].Action is null || items[selection - 1] is null)
+        if (items[selection - 1] is null)
             return;
 
-        items[selection - 1].Action();
-        onAfterItemSelected?.Invoke(this, items[selection - 1].Text);
+        if (items[selection - 1].Action is null)
+            return;
+
+        items[selection - 1]!.Action!();
+        onAfterItemSelected?.Invoke(this, items[selection - 1]!.Text ?? "");
     }
 
     private class MenuItem
