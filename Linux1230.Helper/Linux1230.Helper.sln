@@ -13,17 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.EventUtils
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.ConsoleUtils", "Linux1230.Helper.ConsoleUtils\Linux1230.Helper.ConsoleUtils.csproj", "{BBDFAAD9-19E6-4BE7-AFB9-16623E25E863}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux1230.Helper.MVVM", "Linux1230.Helper.MVVM\Linux1230.Helper.MVVM.csproj", "{63F01CC0-C1D6-43CB-B19D-EEE48567CB52}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.MVVM", "Linux1230.Helper.MVVM\Linux1230.Helper.MVVM.csproj", "{63F01CC0-C1D6-43CB-B19D-EEE48567CB52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux1230.Helper.Services", "Linux1230.Helper.Services\Linux1230.Helper.Services.csproj", "{04D8744E-9906-41F3-A151-014B763E8666}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.Services", "Linux1230.Helper.Services\Linux1230.Helper.Services.csproj", "{04D8744E-9906-41F3-A151-014B763E8666}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux1230.Helper.Number", "Linux1230.Helper.Number\Linux1230.Helper.Number.csproj", "{FBB5335C-AEEA-4380-AF9F-125F125C9672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.Number", "Linux1230.Helper.Number\Linux1230.Helper.Number.csproj", "{FBB5335C-AEEA-4380-AF9F-125F125C9672}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux1230.Helper.HttpClientUtils", "Linux1230.Helper.HttpClientUtils\Linux1230.Helper.HttpClientUtils.csproj", "{23AD3D7D-CE55-47D5-B267-84E34608A3F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.ResponseTypes", "Linux1230.Helper.ResponseTypes\Linux1230.Helper.ResponseTypes.csproj", "{B5E9AA88-EF34-42E3-A953-C287FE988B86}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux1230.Helper.ResponseTypes", "Linux1230.Helper.ResponseTypes\Linux1230.Helper.ResponseTypes.csproj", "{B5E9AA88-EF34-42E3-A953-C287FE988B86}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linux1230.Helper.SQLUtils", "Linux1230.Helper.SQLUtils\Linux1230.Helper.SQLUtils.csproj", "{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Linux1230.Helper.SQLUtils", "Linux1230.Helper.SQLUtils\Linux1230.Helper.SQLUtils.csproj", "{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,10 +61,6 @@ Global
 		{FBB5335C-AEEA-4380-AF9F-125F125C9672}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBB5335C-AEEA-4380-AF9F-125F125C9672}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBB5335C-AEEA-4380-AF9F-125F125C9672}.Release|Any CPU.Build.0 = Release|Any CPU
-		{23AD3D7D-CE55-47D5-B267-84E34608A3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{23AD3D7D-CE55-47D5-B267-84E34608A3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{23AD3D7D-CE55-47D5-B267-84E34608A3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{23AD3D7D-CE55-47D5-B267-84E34608A3F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B5E9AA88-EF34-42E3-A953-C287FE988B86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5E9AA88-EF34-42E3-A953-C287FE988B86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5E9AA88-EF34-42E3-A953-C287FE988B86}.Release|Any CPU.ActiveCfg = Release|Any CPU
