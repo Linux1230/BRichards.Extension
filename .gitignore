@@ -394,5 +394,22 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+######################
 # JetBrains Rider
+######################
+#added manually
+.idea
+###############
 *.sln.iml
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/.idea.BRichards.Helper.iml
+/projectSettingsUpdater.xml
+/modules.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
