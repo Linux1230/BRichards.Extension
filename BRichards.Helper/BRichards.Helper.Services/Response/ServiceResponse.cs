@@ -13,10 +13,7 @@ public class ServiceResponse
     public string? Message { get; set; }
     public ServiceResponseState State { get; set; }
 
-    public ServiceResponse()
-    {
-            
-    }
+    public ServiceResponse() { }
 
     public ServiceResponse(string? message, ServiceResponseState state)
     {

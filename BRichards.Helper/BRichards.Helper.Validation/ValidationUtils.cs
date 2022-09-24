@@ -1,4 +1,4 @@
-﻿namespace BRichards.Helper.LINQUtils;
+﻿namespace BRichards.Helper.Validation;
 
 public static class ValidationUtils
 {

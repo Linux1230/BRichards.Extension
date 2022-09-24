@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -8,18 +8,26 @@
 		<VersionSuffix>beta</VersionSuffix>
 		<Authors>Barki Richard</Authors>
 		<Company>Barki Richard</Company>
-		<Description>My .NET 6 string manipulation helper library.</Description>
+		<Description>My .NET 6 controller base helper library using BRichards.Helper.Services.</Description>
 		<Copyright>2022</Copyright>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageTags>BRichards;String</PackageTags>
+		<PackageTags>BRichards;Response;Service;Return;Type</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\BRichards.Helper.Services\BRichards.Helper.Services.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<None Update="README.md">
-			<Pack>True</Pack>
 			<PackagePath>\</PackagePath>
+			<Pack>True</Pack>
 		</None>
 	</ItemGroup>
 

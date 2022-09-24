@@ -1,17 +1,18 @@
-﻿using System.Net.Mail;
+﻿using System.ComponentModel.DataAnnotations;
 using System.Text.RegularExpressions;
 
-namespace BRichards.Helper.StringUtils;
+namespace BRichards.Helper.Validation;
 
 public static class Validation
 {
     /// <summary>
     /// Checks if a given e-mail is valid.
     /// </summary>
-    /// <param name="emailAddress"></param>
+    /// <param name="address"></param>
     /// <returns></returns>
-    public static bool EMailIsValid(string emailAddress) =>
-        MailAddress.TryCreate(emailAddress, out _);
+    public static bool IsValidEmailAddress(this string address) =>
+        new EmailAddressAttribute().IsValid(address ?? throw new ArgumentNullException(nameof(address)));
+
 
     /// <summary>
     /// Checks is a given password is valid.
@@ -34,7 +35,7 @@ public static class Validation
             return false;
         }
 
-        const string pattern = @"^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!*@#$%^&+=]).*$";
+        const string pattern = /*lang=regex*/@"^.*(?=.{8,})(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*[!*@#$%^&+=]).*$";
         return Regex.Match(password, pattern).Success;
     }
 
@@ -52,7 +53,7 @@ public static class Validation
             return false;
         }
 
-        const string pattern = @"^(.+?)#\d{4}$";       
+        const string pattern = /*lang=regex*/@"^(.+?)#\d{4}$";       
         return Regex.Match(discord, pattern).Success;
     }
 
@@ -68,7 +69,7 @@ public static class Validation
             return false;
         }
 
-        const string pattern = @"^[0-9]{8}-[0-9]{8}(-[0-9]{8})?$";
+        const string pattern = /*lang=regex*/@"^[0-9]{8}-[0-9]{8}(-[0-9]{8})?$";
         return Regex.Match(number, pattern).Success;
     }
 }

@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -8,10 +8,10 @@
 		<VersionSuffix>beta</VersionSuffix>
 		<Authors>Barki Richard</Authors>
 		<Company>Barki Richard</Company>
-		<Description>My .NET 6 string manipulation helper library.</Description>
+		<Description>My .NET 6 validation helper library.</Description>
 		<Copyright>2022</Copyright>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageTags>BRichards;String</PackageTags>
+		<PackageTags>BRichards;Validation</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
