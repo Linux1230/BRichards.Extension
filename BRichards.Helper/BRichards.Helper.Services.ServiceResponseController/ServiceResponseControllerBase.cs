@@ -10,7 +10,7 @@ public class ServiceResponseControllerBase : ControllerBase
         {
              ServiceResponse.ServiceResponseState.Success => Ok(),
              ServiceResponse.ServiceResponseState.Error => BadRequest(response.Message),
-             ServiceResponse.ServiceResponseState.Empty => NotFound(),
+             ServiceResponse.ServiceResponseState.Null => NotFound(),
              ServiceResponse.ServiceResponseState.Invalid => UnprocessableEntity(),
              _ => BadRequest()
         };
@@ -20,7 +20,7 @@ public class ServiceResponseControllerBase : ControllerBase
         {
             ServiceResponse.ServiceResponseState.Success => Ok(response.Object),
             ServiceResponse.ServiceResponseState.Error => BadRequest(response.Message),
-            ServiceResponse.ServiceResponseState.Empty => NotFound(),
+            ServiceResponse.ServiceResponseState.Null => NotFound(),
             ServiceResponse.ServiceResponseState.Invalid => UnprocessableEntity(),
             _ => BadRequest()
         };

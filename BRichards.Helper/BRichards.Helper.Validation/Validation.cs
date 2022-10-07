@@ -6,6 +6,15 @@ namespace BRichards.Helper.Validation;
 public static class Validation
 {
     /// <summary>
+    /// Mirrors string.IsNullOrWhiteSpace(string? value)
+    /// </summary>
+    /// <param name="value"></param>
+    /// <returns>bool</returns>
+    public static bool IsEmptyOrWhiteSpace(this string? value) =>
+        string.IsNullOrWhiteSpace(value);
+
+
+    /// <summary>
     /// Checks if a given e-mail is valid.
     /// </summary>
     /// <param name="address"></param>
