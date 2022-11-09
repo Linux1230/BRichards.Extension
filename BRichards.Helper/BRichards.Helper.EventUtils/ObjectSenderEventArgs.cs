@@ -1,4 +1,4 @@
-﻿namespace BRichards.Helper.EventUtils;
+﻿namespace BRichards.Helper.EventExtension;
 
 public class ObjectSenderEventArgs<T> : EventArgs
 {

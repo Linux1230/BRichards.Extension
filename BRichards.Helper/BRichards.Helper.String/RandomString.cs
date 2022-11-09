@@ -1,4 +1,4 @@
-﻿namespace BRichards.Helper.StringUtils;
+﻿namespace BRichards.Helper.StringExtension;
 
 public static class RandomString
 {

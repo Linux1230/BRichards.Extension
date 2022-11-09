@@ -1,4 +1,4 @@
-﻿namespace BRichards.Helper.DictionaryUtils;
+﻿namespace BRichards.Helper.DictionaryExtension;
 
 public static class ToLookupDictionary
 {

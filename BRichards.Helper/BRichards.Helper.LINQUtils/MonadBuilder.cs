@@ -1,4 +1,4 @@
-﻿namespace BRichards.Helper.LINQUtils;
+﻿namespace BRichards.Helper.LinqExtension;
 
 public static class MonadBuilder
 {

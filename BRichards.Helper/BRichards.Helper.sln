@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.StringUtils", "BRichards.Helper.String\BRichards.Helper.StringUtils.csproj", "{0B90A938-7D12-4072-88D3-FD9EC80D10B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.StringExtension", "BRichards.Helper.String\BRichards.Helper.StringExtension.csproj", "{0B90A938-7D12-4072-88D3-FD9EC80D10B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ProcessUtils", "BRichards.Helper.Process\BRichards.Helper.ProcessUtils.csproj", "{30F05452-A817-4A9B-8790-6B2261399158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ProcessExtension", "BRichards.Helper.Process\BRichards.Helper.ProcessExtension.csproj", "{30F05452-A817-4A9B-8790-6B2261399158}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.FileUtils", "BRichards.Helper.File\BRichards.Helper.FileUtils.csproj", "{52A2FBFF-5616-4295-A2D1-9653556B8A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.FileExtension", "BRichards.Helper.File\BRichards.Helper.FileExtension.csproj", "{52A2FBFF-5616-4295-A2D1-9653556B8A6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.EventUtils", "BRichards.Helper.EventUtils\BRichards.Helper.EventUtils.csproj", "{549DFD82-3CC8-427F-BD44-70023D803F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.EventExtension", "BRichards.Helper.EventUtils\BRichards.Helper.EventExtension.csproj", "{549DFD82-3CC8-427F-BD44-70023D803F46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ConsoleUtils", "BRichards.Helper.ConsoleUtils\BRichards.Helper.ConsoleUtils.csproj", "{BBDFAAD9-19E6-4BE7-AFB9-16623E25E863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ConsoleExtension", "BRichards.Helper.ConsoleUtils\BRichards.Helper.ConsoleExtension.csproj", "{BBDFAAD9-19E6-4BE7-AFB9-16623E25E863}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.MVVM", "BRichards.Helper.MVVM\BRichards.Helper.MVVM.csproj", "{63F01CC0-C1D6-43CB-B19D-EEE48567CB52}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Services", "BRichards.Helper.Services\BRichards.Helper.Services.csproj", "{04D8744E-9906-41F3-A151-014B763E8666}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Number", "BRichards.Helper.Number\BRichards.Helper.Number.csproj", "{FBB5335C-AEEA-4380-AF9F-125F125C9672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Numbers", "BRichards.Helper.Number\BRichards.Helper.Numbers.csproj", "{FBB5335C-AEEA-4380-AF9F-125F125C9672}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ResponseTypes", "BRichards.Helper.ResponseTypes\BRichards.Helper.ResponseTypes.csproj", "{B5E9AA88-EF34-42E3-A953-C287FE988B86}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.SQLUtils", "BRichards.Helper.SQLUtils\BRichards.Helper.SQLUtils.csproj", "{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.SqlExtension", "BRichards.Helper.SQLUtils\BRichards.Helper.SqlExtension.csproj", "{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.LINQUtils", "BRichards.Helper.LINQUtils\BRichards.Helper.LINQUtils.csproj", "{DC656B8A-FABF-46D0-B886-F1A830254495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.LinqExtension", "BRichards.Helper.LINQUtils\BRichards.Helper.LinqExtension.csproj", "{DC656B8A-FABF-46D0-B886-F1A830254495}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DictionaryUtils", "BRichards.Helper.DictionaryUtils\BRichards.Helper.DictionaryUtils.csproj", "{1467E5FF-CDFD-4FA9-9DD8-FAB1E14CBEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DictionaryExtension", "BRichards.Helper.DictionaryUtils\BRichards.Helper.DictionaryExtension.csproj", "{1467E5FF-CDFD-4FA9-9DD8-FAB1E14CBEA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4B1962C-0264-4992-BCB0-38AF7AB53637}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,11 +36,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Services.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Repositories", "BRichards.Helper.Repositories\BRichards.Helper.Repositories.csproj", "{350A4B3A-40B2-440D-8438-5352E8C3492F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRichards.Helper.DateTimeUtils", "BRichards.Helper.DateTimeUtils\BRichards.Helper.DateTimeUtils.csproj", "{9C341D7A-4FC5-4FE9-A8DE-44756730EB2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DateTimeExtension", "BRichards.Helper.DateTimeUtils\BRichards.Helper.DateTimeExtension.csproj", "{9C341D7A-4FC5-4FE9-A8DE-44756730EB2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRichards.Helper.Validation", "BRichards.Helper.Validation\BRichards.Helper.Validation.csproj", "{6153D7CC-F2E0-444C-9E4E-6B2ADAB35207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Validation", "BRichards.Helper.Validation\BRichards.Helper.Validation.csproj", "{6153D7CC-F2E0-444C-9E4E-6B2ADAB35207}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRichards.Helper.Numerics", "BRichards.Helper.Numerics\BRichards.Helper.Numerics.csproj", "{66B452D6-CD28-45E2-8AA0-5C4ADC4FFC50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Numerics", "BRichards.Helper.Numerics\BRichards.Helper.Numerics.csproj", "{66B452D6-CD28-45E2-8AA0-5C4ADC4FFC50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Networking", "BRichards.Helper.Networking\BRichards.Helper.Networking.csproj", "{6BD3AB97-601D-4116-8B52-8BF271D8B2BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRichards.Helper.MinimalApi", "BRichards.Helper.MinimalApi\BRichards.Helper.MinimalApi.csproj", "{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{79B56387-2247-4E40-BBC2-74A8490ADDE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -116,9 +124,34 @@ Global
 		{66B452D6-CD28-45E2-8AA0-5C4ADC4FFC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66B452D6-CD28-45E2-8AA0-5C4ADC4FFC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66B452D6-CD28-45E2-8AA0-5C4ADC4FFC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BD3AB97-601D-4116-8B52-8BF271D8B2BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BD3AB97-601D-4116-8B52-8BF271D8B2BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BD3AB97-601D-4116-8B52-8BF271D8B2BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BD3AB97-601D-4116-8B52-8BF271D8B2BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0B90A938-7D12-4072-88D3-FD9EC80D10B2} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{30F05452-A817-4A9B-8790-6B2261399158} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{52A2FBFF-5616-4295-A2D1-9653556B8A6D} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{549DFD82-3CC8-427F-BD44-70023D803F46} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{BBDFAAD9-19E6-4BE7-AFB9-16623E25E863} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{04D8744E-9906-41F3-A151-014B763E8666} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
+		{B5E9AA88-EF34-42E3-A953-C287FE988B86} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
+		{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{DC656B8A-FABF-46D0-B886-F1A830254495} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{1467E5FF-CDFD-4FA9-9DD8-FAB1E14CBEA9} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{2756DA4F-DE66-4FC3-9EFD-706571C2F632} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
+		{350A4B3A-40B2-440D-8438-5352E8C3492F} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
+		{9C341D7A-4FC5-4FE9-A8DE-44756730EB2F} = {32BB8AF3-3A7C-48A6-815B-15D6F2C35FCC}
+		{6BD3AB97-601D-4116-8B52-8BF271D8B2BB} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
+		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05A2DB63-003B-42FA-9AB3-EAFDAB3CEB71}

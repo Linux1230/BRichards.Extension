@@ -1,6 +1,6 @@
-﻿namespace BRichards.Helper.DateTimeUtils;
+﻿namespace BRichards.Helper.DateTimeExtension;
 
-public static class DateIntervals
+public static class DateIntervalCalculations
 {
     /// <summary>
     /// Returns Each Day in the given period based on parameters

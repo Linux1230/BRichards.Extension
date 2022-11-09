@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
 		<TargetFramework>net6.0</TargetFramework>
@@ -8,26 +8,22 @@
 		<VersionSuffix>beta</VersionSuffix>
 		<Authors>Barki Richard</Authors>
 		<Company>Barki Richard</Company>
-		<Description>My .NET 6 controller base helper library using BRichards.Helper.Services.</Description>
+		<Description>My .NET 6 number manipulation helper library.</Description>
 		<Copyright>2022</Copyright>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageTags>BRichards;Response;Service;Return;Type</PackageTags>
+		<PackageTags>BRichards;Number</PackageTags>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
 	</PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <ProjectReference Include="..\BRichards.Helper.Services\BRichards.Helper.Services.csproj" />
+	  <ProjectReference Include="..\BRichards.Helper.LINQUtils\BRichards.Helper.LinqExtension.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<None Update="README.md">
-			<PackagePath>\</PackagePath>
 			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
 		</None>
 	</ItemGroup>
 

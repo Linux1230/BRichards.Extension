@@ -1,10 +1,10 @@
 ﻿using System.Globalization;
 
-namespace BRichards.Helper.Number;
+namespace BRichards.Helper.Numbers.Converter;
 
-public static class DoubleUtils
+public static class DoubleConverter
 {
-    public static double GetDouble(this string? s)
+    public static double AsDouble(this string? s)
     {
         var systemSeparator = Thread.CurrentThread.CurrentCulture.NumberFormat.CurrencyDecimalSeparator[0];
         try

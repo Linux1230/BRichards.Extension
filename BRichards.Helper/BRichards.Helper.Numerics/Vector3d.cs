@@ -8,10 +8,7 @@ public struct Vector3d : IComparable<Vector3d>, IEquatable<Vector3d>
     public double Y { get; set; }
     public double Z { get; set; }
 
-    public Vector3d(double f)
-    {
-        X = Y = Z = f;
-    }
+    public Vector3d(double f) => X = Y = Z = f;
 
     public Vector3d(double x, double y, double z)
     {

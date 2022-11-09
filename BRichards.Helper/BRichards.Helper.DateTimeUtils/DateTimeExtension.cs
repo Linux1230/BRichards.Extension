@@ -1,4 +1,4 @@
-﻿namespace BRichards.Helper.DateTimeUtils;
+﻿namespace BRichards.Helper.DateTimeExtension;
 
 public static class DateTimeExtension
 {

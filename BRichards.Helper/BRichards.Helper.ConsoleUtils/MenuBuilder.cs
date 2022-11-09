@@ -1,22 +1,28 @@
-﻿namespace BRichards.Helper.ConsoleUtils;
+﻿namespace BRichards.Helper.ConsoleExtension;
 
 public class MenuBuilder
 {
-    private string? title;
-    private List<MenuItem> items = new();
-    private Action<MenuBuilder, string>? onAfterItemSelected;
-
-    public MenuBuilder() { }
-
-    public MenuBuilder(string title)
+    private class MenuItem
     {
-        this.title = title;
+        public string? Text { get; set; }
+        public Action? Action { get; set; }
+
+        public MenuItem() { }
+        public MenuItem(string text, Action action)
+        {
+            Text = text;
+            Action = action;
+        }
     }
 
+    private string? title;
+    private readonly List<MenuItem> items = new();
+    private Action<MenuBuilder, string>? onAfterItemSelected;
+
     /// <summary>
-    /// Beállítja a menü első sorát / címét.
+    /// Sets the first line of a menu as a title
     /// </summary>
-    /// <param name="value">Az első sorban, két kötőjel között jelenik meg.</param>
+    /// <param name="value">This text will be printed in the first line</param>
     /// <returns></returns>
     public MenuBuilder SetTitle(string value)
     {
@@ -25,10 +31,10 @@ public class MenuBuilder
     }
 
     /// <summary>
-    /// Új menü elem hozzáadása.
+    /// Adds a new menu entry
     /// </summary>
-    /// <param name="text">Ez az elem szövege, ami megjelenik a képernyőn egy sorszám után.</param>
-    /// <param name="action">Ez a kód, ami lefut, ha ezt a menü elemet választja a felhasználó.</param>
+    /// <param name="text">Text of the item.</param>
+    /// <param name="action">Action that will be Invoked on item selection</param>
     /// <returns></returns>
     public MenuBuilder AddItem(string text, Action action)
     {
@@ -37,8 +43,7 @@ public class MenuBuilder
     }
 
     /// <summary>
-    /// Beállítja a kódot, ami egy menü elem választása UTÁN történik.
-    /// Például itt lehet megadni, hogy elem választása után a program visszatérjen ide a menübe.
+    /// Sets an action witch is invoked on any menu item selection
     /// </summary>
     /// <param name="onAfterItemSelectedAction"></param>
     /// <returns></returns>
@@ -49,13 +54,12 @@ public class MenuBuilder
     }
 
     /// <summary>
-    /// Kiírja a menüt a képernyőre és választ vár a felhasználótól.
+    /// Writes the MenuBuilders output to the console, and waits for input
     /// </summary>
     public void Show()
     {
         while (true)
         {
-            // Write menu
             Console.Clear();
             Console.WriteLine($" - {title} - ");
             for (var i = 0; i < items.Count; i++)
@@ -63,7 +67,6 @@ public class MenuBuilder
                 Console.WriteLine($"{i + 1}. {items[i].Text}");
             }
 
-            // Get selection
             var input = Console.ReadLine();
 
             if (!int.TryParse(input, out var selection))
@@ -76,12 +79,6 @@ public class MenuBuilder
                 continue;
             }
 
-            // Execute selected item
-            //if (items[selection - 1] is null)
-            //{
-            //    return;
-            //}
-
             if (items[selection - 1].Action is null)
             {
                 return;
@@ -90,19 +87,6 @@ public class MenuBuilder
             items[selection - 1].Action!();
             onAfterItemSelected?.Invoke(this, items[selection - 1].Text ?? "");
             break;
-        }
-    }
-
-    private class MenuItem
-    {
-        public string? Text { get; set; }
-        public Action? Action { get; set; }
-
-        public MenuItem() { }
-        public MenuItem(string text, Action action)
-        {
-            Text = text;
-            Action = action;
         }
     }
 }

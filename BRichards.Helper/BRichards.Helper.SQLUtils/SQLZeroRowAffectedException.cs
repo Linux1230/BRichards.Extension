@@ -1,6 +1,6 @@
 ﻿using System.Runtime.Serialization;
 
-namespace BRichards.Helper.SQLUtils;
+namespace BRichards.Helper.SqlExtension;
 
 public class SqlZeroRowAffectedException : SystemException
 {

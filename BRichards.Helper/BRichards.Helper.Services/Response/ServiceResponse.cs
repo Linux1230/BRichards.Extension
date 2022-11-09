@@ -2,14 +2,6 @@
 
 public class ServiceResponse
 {
-    public enum ServiceResponseState
-    {
-        Success = 0,
-        Error = 1,
-        Null = 2,
-        Invalid = 3
-    }
-
     public string? Message { get; set; }
     public ServiceResponseState State { get; set; }
 
@@ -58,7 +50,7 @@ public class ServiceResponse
     /// It will set the State to ServiceResponseState.Error
     /// <param name="obj"></param>
     /// <returns></returns>
-    public virtual ServiceResponse SetEmpty(string message = "")
+    public virtual ServiceResponse SetNull(string message = "")
     {
         State = ServiceResponseState.Null;
         Message = message;

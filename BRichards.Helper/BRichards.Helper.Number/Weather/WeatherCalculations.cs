@@ -1,8 +1,8 @@
-﻿using BRichards.Helper.LINQUtils;
+﻿using BRichards.Helper.LinqExtension;
 
-namespace BRichards.Helper.Number.Weather;
+namespace BRichards.Helper.Numbers.Weather;
 
-public static class WeatherUtils
+public static class WeatherCalculations
 {
     public static decimal ToFahrenheit(this decimal tempC) =>
         tempC.Map(x => x * 9)

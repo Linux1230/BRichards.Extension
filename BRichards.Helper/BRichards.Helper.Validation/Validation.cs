@@ -13,13 +13,12 @@ public static class Validation
     public static bool IsEmptyOrWhiteSpace(this string? value) =>
         string.IsNullOrWhiteSpace(value);
 
-
     /// <summary>
     /// Checks if a given e-mail is valid.
     /// </summary>
     /// <param name="address"></param>
     /// <returns></returns>
-    public static bool IsValidEmailAddress(this string address) =>
+    public static bool IsValidAsEmailAddress(this string address) =>
         new EmailAddressAttribute().IsValid(address ?? throw new ArgumentNullException(nameof(address)));
 
 
