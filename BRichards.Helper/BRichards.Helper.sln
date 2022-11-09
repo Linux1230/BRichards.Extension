@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.StringExtension", "BRichards.Helper.String\BRichards.Helper.StringExtension.csproj", "{0B90A938-7D12-4072-88D3-FD9EC80D10B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.StringExtension", "BRichards.Helper.StringExtension\BRichards.Helper.StringExtension.csproj", "{0B90A938-7D12-4072-88D3-FD9EC80D10B2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ProcessExtension", "BRichards.Helper.Process\BRichards.Helper.ProcessExtension.csproj", "{30F05452-A817-4A9B-8790-6B2261399158}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ProcessExtension", "BRichards.Helper.ProcessExtension\BRichards.Helper.ProcessExtension.csproj", "{30F05452-A817-4A9B-8790-6B2261399158}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.FileExtension", "BRichards.Helper.File\BRichards.Helper.FileExtension.csproj", "{52A2FBFF-5616-4295-A2D1-9653556B8A6D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.FileExtension", "BRichards.Helper.FileExtension\BRichards.Helper.FileExtension.csproj", "{52A2FBFF-5616-4295-A2D1-9653556B8A6D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.EventExtension", "BRichards.Helper.EventUtils\BRichards.Helper.EventExtension.csproj", "{549DFD82-3CC8-427F-BD44-70023D803F46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.EventExtension", "BRichards.Helper.EventExtension\BRichards.Helper.EventExtension.csproj", "{549DFD82-3CC8-427F-BD44-70023D803F46}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ConsoleExtension", "BRichards.Helper.ConsoleUtils\BRichards.Helper.ConsoleExtension.csproj", "{BBDFAAD9-19E6-4BE7-AFB9-16623E25E863}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ConsoleExtension", "BRichards.Helper.ConsoleExtension\BRichards.Helper.ConsoleExtension.csproj", "{BBDFAAD9-19E6-4BE7-AFB9-16623E25E863}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.MVVM", "BRichards.Helper.MVVM\BRichards.Helper.MVVM.csproj", "{63F01CC0-C1D6-43CB-B19D-EEE48567CB52}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Services", "BRichards.Helper.Services\BRichards.Helper.Services.csproj", "{04D8744E-9906-41F3-A151-014B763E8666}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Numbers", "BRichards.Helper.Number\BRichards.Helper.Numbers.csproj", "{FBB5335C-AEEA-4380-AF9F-125F125C9672}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Numbers", "BRichards.Helper.Numbers\BRichards.Helper.Numbers.csproj", "{FBB5335C-AEEA-4380-AF9F-125F125C9672}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.ResponseTypes", "BRichards.Helper.ResponseTypes\BRichards.Helper.ResponseTypes.csproj", "{B5E9AA88-EF34-42E3-A953-C287FE988B86}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.SqlExtension", "BRichards.Helper.SQLUtils\BRichards.Helper.SqlExtension.csproj", "{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.SqlExtension", "BRichards.Helper.SqlExtension\BRichards.Helper.SqlExtension.csproj", "{E74BC809-3DF3-410A-9FC6-F9FDCEBE6EF6}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.LinqExtension", "BRichards.Helper.LINQUtils\BRichards.Helper.LinqExtension.csproj", "{DC656B8A-FABF-46D0-B886-F1A830254495}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.LinqExtension", "BRichards.Helper.LinqExtension\BRichards.Helper.LinqExtension.csproj", "{DC656B8A-FABF-46D0-B886-F1A830254495}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DictionaryExtension", "BRichards.Helper.DictionaryUtils\BRichards.Helper.DictionaryExtension.csproj", "{1467E5FF-CDFD-4FA9-9DD8-FAB1E14CBEA9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DictionaryExtension", "BRichards.Helper.DictionaryExtension\BRichards.Helper.DictionaryExtension.csproj", "{1467E5FF-CDFD-4FA9-9DD8-FAB1E14CBEA9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F4B1962C-0264-4992-BCB0-38AF7AB53637}"
 	ProjectSection(SolutionItems) = preProject
@@ -36,7 +36,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Services.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Repositories", "BRichards.Helper.Repositories\BRichards.Helper.Repositories.csproj", "{350A4B3A-40B2-440D-8438-5352E8C3492F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DateTimeExtension", "BRichards.Helper.DateTimeUtils\BRichards.Helper.DateTimeExtension.csproj", "{9C341D7A-4FC5-4FE9-A8DE-44756730EB2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.DateTimeExtension", "BRichards.Helper.DateTimeExtension\BRichards.Helper.DateTimeExtension.csproj", "{9C341D7A-4FC5-4FE9-A8DE-44756730EB2F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Validation", "BRichards.Helper.Validation\BRichards.Helper.Validation.csproj", "{6153D7CC-F2E0-444C-9E4E-6B2ADAB35207}"
 EndProject
@@ -44,7 +44,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Numerics",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.Networking", "BRichards.Helper.Networking\BRichards.Helper.Networking.csproj", "{6BD3AB97-601D-4116-8B52-8BF271D8B2BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRichards.Helper.MinimalApi", "BRichards.Helper.MinimalApi\BRichards.Helper.MinimalApi.csproj", "{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Helper.MinimalApi", "BRichards.Helper.MinimalApi\BRichards.Helper.MinimalApi.csproj", "{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{79B56387-2247-4E40-BBC2-74A8490ADDE3}"
 EndProject

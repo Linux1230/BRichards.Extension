@@ -17,7 +17,7 @@
 	</PropertyGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\BRichards.Helper.LINQUtils\BRichards.Helper.LinqExtension.csproj" />
+	  <ProjectReference Include="..\BRichards.Helper.LinqExtension\BRichards.Helper.LinqExtension.csproj" />
 	</ItemGroup>
 
 	<ItemGroup>
