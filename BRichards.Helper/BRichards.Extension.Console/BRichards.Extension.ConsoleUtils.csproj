@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>annotations</Nullable>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<VersionPrefix>1.0.0</VersionPrefix>
+		<VersionSuffix>beta</VersionSuffix>
+		<Authors>Barki Richard</Authors>
+		<Company>Barki Richard</Company>
+		<Description>My .NET 6 Console Application helper library.</Description>
+		<Copyright>2022</Copyright>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>BRichards;Console</PackageTags>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Update="README.md">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
