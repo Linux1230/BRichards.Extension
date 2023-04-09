@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "BRichards.Extension.Blazor": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:51507;http://localhost:51508"
+    }
+  }
+}
