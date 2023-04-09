@@ -4,6 +4,9 @@ using System.Net.NetworkInformation;
 
 namespace BRichards.Extension.Networking;
 
+/// <summary>
+/// 
+/// </summary>
 public class IPExtension
 {
     /// <summary>

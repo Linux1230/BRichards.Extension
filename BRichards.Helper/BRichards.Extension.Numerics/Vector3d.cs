@@ -72,13 +72,10 @@ public struct Vector3d : IComparable<Vector3d>, IEquatable<Vector3d>
         Z = copy.Z;
     }
 
-<<<<<<< Updated upstream:BRichards.Helper/BRichards.Extension.Numerics/Vector3d.cs
-=======
     /// <summary>
     /// 
     /// </summary>
     /// <returns></returns>
->>>>>>> Stashed changes:BRichards.Helper/BRichards.Helper.Numerics/Vector3d.cs
     public Vector3 ToVector3() =>
         new((float)X, (float)Y, (float)Z);
 
@@ -198,50 +195,6 @@ public struct Vector3d : IComparable<Vector3d>, IEquatable<Vector3d>
         Z -= o.Z;
     }
 
-<<<<<<< Updated upstream:BRichards.Helper/BRichards.Extension.Numerics/Vector3d.cs
-    public static Vector3d operator -(Vector3d v) =>
-        new(-v.X, -v.Y, -v.Z);
-
-    public static Vector3d operator *(double f, Vector3d v) =>
-        new(f * v.X, f * v.Y, f * v.Z);
-
-    public static Vector3d operator *(Vector3d v, double f) =>
-        new(f * v.X, f * v.Y, f * v.Z);
-
-    public static Vector3d operator /(Vector3d v, double f) =>
-        new(v.X / f, v.Y / f, v.Z / f);
-
-    public static Vector3d operator /(double f, Vector3d v) =>
-        new(f / v.X, f / v.Y, f / v.Z);
-
-    public static Vector3d operator *(Vector3d a, Vector3d b) =>
-        new(a.X * b.X, a.Y * b.Y, a.Z * b.Z);
-
-    public static Vector3d operator /(Vector3d a, Vector3d b) =>
-        new(a.X / b.X, a.Y / b.Y, a.Z / b.Z);
-
-    public static Vector3d operator +(Vector3d v0, Vector3d v1) =>
-        new(v0.X + v1.X, v0.Y + v1.Y, v0.Z + v1.Z);
-
-    public static Vector3d operator +(Vector3d v0, double f) =>
-        new(v0.X + f, v0.Y + f, v0.Z + f);
-
-    public static Vector3d operator -(Vector3d v0, Vector3d v1) =>
-        new(v0.X - v1.X, v0.Y - v1.Y, v0.Z - v1.Z);
-
-    public static Vector3d operator -(Vector3d v0, double f) =>
-        new(v0.X - f, v0.Y - f, v0.Z - f);
-
-    public static bool operator ==(Vector3d a, Vector3d b) =>
-        a.X == b.X && a.Y == b.Y && a.Z == b.Z;
-
-    public static bool operator !=(Vector3d a, Vector3d b) =>
-        a.X != b.X || a.Y != b.Y || a.Z != b.Z;
-
-    public override bool Equals(object? obj) =>
-        this == (Vector3d?)obj;
-
-=======
     /// <summary>
     /// 
     /// </summary>
@@ -370,7 +323,6 @@ public struct Vector3d : IComparable<Vector3d>, IEquatable<Vector3d>
     /// 
     /// </summary>
     /// <returns></returns>
->>>>>>> Stashed changes:BRichards.Helper/BRichards.Helper.Numerics/Vector3d.cs
     public override int GetHashCode() =>
         HashCode.Combine(X, Y, Z);
 
@@ -390,14 +342,12 @@ public struct Vector3d : IComparable<Vector3d>, IEquatable<Vector3d>
         return 0;
     }
 
-<<<<<<< Updated upstream:BRichards.Helper/BRichards.Extension.Numerics/Vector3d.cs
-=======
+
     /// <summary>
     /// 
     /// </summary>
     /// <param name="other"></param>
     /// <returns></returns>
->>>>>>> Stashed changes:BRichards.Helper/BRichards.Helper.Numerics/Vector3d.cs
     public bool Equals(Vector3d other) =>
         X == other.X && Y == other.Y && Z == other.Z;
 

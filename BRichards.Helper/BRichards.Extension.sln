@@ -62,6 +62,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{EB3E5F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{31A388DD-63E4-4765-8976-1A05F3C8C399}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BRichards.Extension.Blazored.LocalStorage", "..\..\BlockchainSzakdolgozat\BRichards.Thesis.BlockchainWebshop\BRichards.Extension.Blazored.LocalStorage\BRichards.Extension.Blazored.LocalStorage.csproj", "{9CC6ECD8-19C9-44A4-891D-6135D15DC5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -144,6 +146,10 @@ Global
 		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC225B79-4193-4C76-BCA3-E0A1DAFD9C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC6ECD8-19C9-44A4-891D-6135D15DC5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC6ECD8-19C9-44A4-891D-6135D15DC5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC6ECD8-19C9-44A4-891D-6135D15DC5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC6ECD8-19C9-44A4-891D-6135D15DC5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -175,6 +181,7 @@ Global
 		{A141FE4A-B49D-4688-A5E2-A1A78F9F7226} = {BCE0830B-FBA7-4C60-8017-89FDEE5A982A}
 		{EB3E5F12-DBB9-4DDE-BD0B-0823648041B4} = {BCE0830B-FBA7-4C60-8017-89FDEE5A982A}
 		{31A388DD-63E4-4765-8976-1A05F3C8C399} = {BCE0830B-FBA7-4C60-8017-89FDEE5A982A}
+		{9CC6ECD8-19C9-44A4-891D-6135D15DC5FE} = {79B56387-2247-4E40-BBC2-74A8490ADDE3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05A2DB63-003B-42FA-9AB3-EAFDAB3CEB71}

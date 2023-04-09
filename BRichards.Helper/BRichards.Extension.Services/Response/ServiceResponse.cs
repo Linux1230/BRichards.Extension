@@ -1,12 +1,29 @@
 ﻿namespace BRichards.Extension.Services.Response;
 
+/// <summary>
+/// 
+/// </summary>
 public class ServiceResponse
 {
+    /// <summary>
+    /// 
+    /// </summary>
     public string? Message { get; set; }
+    /// <summary>
+    /// 
+    /// </summary>
     public ServiceResponseState State { get; set; }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public ServiceResponse() { }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="message"></param>
+    /// <param name="state"></param>
     public ServiceResponse(string? message, ServiceResponseState state)
     {
         Message = message;
@@ -15,7 +32,8 @@ public class ServiceResponse
 
     /// <summary>
     /// It will set the State to ServiceResponseState.Success
-    /// <param name="obj"></param>
+    /// </summary>
+    /// <param name="message"></param>
     /// <returns></returns>
     public virtual ServiceResponse SetSuccess(string message = "")
     {
@@ -26,7 +44,8 @@ public class ServiceResponse
 
     /// <summary>
     /// It will set the State to ServiceResponseState.Invalid
-    /// <param name="obj"></param>
+    /// </summary>
+    /// <param name="message"></param>
     /// <returns></returns>
     public virtual ServiceResponse SetInvalid(string message = "")
     {
@@ -37,7 +56,8 @@ public class ServiceResponse
 
     /// <summary>
     /// It will set the State to ServiceResponseState.Error
-    /// <param name="obj"></param>
+    /// </summary>
+    /// <param name="message"></param>
     /// <returns></returns>
     public virtual ServiceResponse SetError(string message = "")
     {
@@ -48,7 +68,8 @@ public class ServiceResponse
 
     /// <summary>
     /// It will set the State to ServiceResponseState.Error
-    /// <param name="obj"></param>
+    /// </summary>
+    /// <param name="message"></param>
     /// <returns></returns>
     public virtual ServiceResponse SetNull(string message = "")
     {

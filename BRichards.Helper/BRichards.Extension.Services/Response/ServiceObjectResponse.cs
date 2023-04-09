@@ -1,5 +1,9 @@
 ﻿namespace BRichards.Extension.Services.Response;
 
+/// <summary>
+/// 
+/// </summary>
+/// <typeparam name="T"></typeparam>
 public class ServiceObjectResponse<T> : ServiceResponse
 {
     private T? _object;
@@ -24,8 +28,17 @@ public class ServiceObjectResponse<T> : ServiceResponse
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
     public ServiceObjectResponse() { }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="obj"></param>
+    /// <param name="message"></param>
+    /// <param name="state"></param>
     public ServiceObjectResponse(T? obj, string? message, ServiceResponseState state) :
         base(message, state)
     {

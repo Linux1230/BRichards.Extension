@@ -3,6 +3,9 @@ using System.Text.RegularExpressions;
 
 namespace BRichards.Extension.Validation;
 
+/// <summary>
+/// 
+/// </summary>
 public static class Validation
 {
     /// <summary>

@@ -1,5 +1,8 @@
 ﻿namespace BRichards.Extension.MVVM;
 
+/// <summary>
+/// 
+/// </summary>
 public abstract class AsyncCommandBase : CommandBase
 {
     private bool _isExecuting;
@@ -13,9 +16,18 @@ public abstract class AsyncCommandBase : CommandBase
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="parameter"></param>
+    /// <returns></returns>
     public override bool CanExecute(object? parameter) =>
         !IsExecuting && base.CanExecute(parameter);
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="parameter"></param>
     public override async void Execute(object? parameter)
     {
         IsExecuting = true;
@@ -33,5 +45,10 @@ public abstract class AsyncCommandBase : CommandBase
         }
     }
 
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="parameter"></param>
+    /// <returns></returns>
     public abstract Task ExecuteAsync(object? parameter);
 }
