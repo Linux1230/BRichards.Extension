@@ -14,10 +14,12 @@ public static class BigIntegerExtension
     /// <returns></returns>
     public static TimeSpan ToTimeSpan(this BigInteger bigInteger, long timeSpanScale = TimeSpan.TicksPerSecond)
     {
-        var timeSpan = TimeSpan.FromTicks(TimeSpan.MaxValue.Ticks);
-        BigInteger.DivRem(bigInteger, new BigInteger(timeSpanScale), out var remainder);
-        timeSpan = TimeSpan.FromTicks((long)(remainder * timeSpanScale / BigInteger.Pow(10, 18)) + timeSpan.Ticks);
-        return timeSpan;
+        var ticks = BigInteger.DivRem(bigInteger,
+                                      new BigInteger(timeSpanScale),
+                                      out var remainder);
+        return TimeSpan.FromTicks((long)ticks) +
+               TimeSpan.FromTicks(
+                   (long)(remainder * TimeSpan.TicksPerSecond / timeSpanScale));
     }
 
     /// <summary>

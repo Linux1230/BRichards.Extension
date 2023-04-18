@@ -3,9 +3,6 @@ using System.Text.RegularExpressions;
 
 namespace BRichards.Extension.Validation;
 
-/// <summary>
-/// 
-/// </summary>
 public static class Validation
 {
     /// <summary>
@@ -13,15 +10,19 @@ public static class Validation
     /// </summary>
     /// <param name="value"></param>
     /// <returns>bool</returns>
-    public static bool IsEmptyOrWhiteSpace(this string? value) =>
+    public static bool IsNullOrWhiteSpace(this string? value) =>
         string.IsNullOrWhiteSpace(value);
+
+    public static bool IsValidUri(this string uri) =>
+        Uri.TryCreate(uri, UriKind.Absolute, out var outUri)
+            && (outUri.Scheme == Uri.UriSchemeHttp || outUri.Scheme == Uri.UriSchemeHttps);
 
     /// <summary>
     /// Checks if a given e-mail is valid.
     /// </summary>
     /// <param name="address"></param>
     /// <returns></returns>
-    public static bool IsValidAsEmailAddress(this string address) =>
+    public static bool IsValidEmailAddress(this string address) =>
         new EmailAddressAttribute().IsValid(address ?? throw new ArgumentNullException(nameof(address)));
 
 
